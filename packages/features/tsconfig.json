@@ -1,0 +1,7 @@
+{
+  "extends": "@yoshinani/style-guide/typescript",
+  "compilerOptions": {
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*.ts"]
+}

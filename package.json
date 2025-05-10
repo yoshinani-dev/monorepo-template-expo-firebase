@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-template-base",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@yoshinani/style-guide": "^0.2.2",
+    "eslint": "^9",
+    "prettier": "^3.4.2",
+    "turbo": "^2.3.3",
+    "typescript": "5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "engines": {
+    "node": ">=18"
+  },
+  "prettier": "@yoshinani/style-guide/prettier"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@repo/firestore-utils-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "firebase-admin": "^12.3.1",
+    "remeda": "^2.19.0"
+  }
+}
